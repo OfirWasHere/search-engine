@@ -1,0 +1,49 @@
+.SearchBar > input{
+	width: 45%;
+    margin-left: 20px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 70px;
+    pointer-events: pointer;
+    border: 2px solid;
+    font-size: 23px;
+}
+.SearchBar > button{
+    margin-left: 10px;
+    background-color:  rgb(3, 196, 135);
+    border: 0px;
+    padding: 12px;
+    border-radius: 60px;
+}
+
+.SearchBar > .dataArea {
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    max-height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/* Scroller CSS */
+
+::-webkit-scrollbar {
+   width: 10px;
+   height: 10px;
+   border-radius: 10px;
+ }
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

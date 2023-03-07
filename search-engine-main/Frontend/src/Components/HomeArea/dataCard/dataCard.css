@@ -1,0 +1,20 @@
+.dataCard {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dataCard > .avatarImage {
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 50px;
+}
+.dataCard > .user {
+    text-align: left;
+    margin-left:150px;
+}
+
+.dataCard:hover{
+    background-color: antiquewhite;
+}

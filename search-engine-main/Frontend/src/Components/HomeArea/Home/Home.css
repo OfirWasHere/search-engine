@@ -1,0 +1,12 @@
+.Home {
+    margin-top: 15vh;
+	text-align: center;
+    line-height: 10px;
+}
+.Home > h1 {
+    color: rgb(3, 196, 135);
+}
+.Home > h3 {
+    font-size: 20px;
+    color: rgb(219, 219, 219);
+}
